@@ -89,3 +89,5 @@ Existe dependência do tipo *cliente-fornecedor*, onde uma classe usa outra. Nes
 *Exemplo de dependência em diagrama de classes.*
 
 Todos os conceitos acima apenas resumem bem rapidamente os artefatos usados em diagramas de classes com UML, ou seja, apenas uma breve revisão.
+
+Créditos: Diego Fernando
