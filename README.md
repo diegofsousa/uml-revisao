@@ -66,6 +66,8 @@ Também é um relacionamento todo-parte, porém com alto grau de acoplamento ent
 
 *Exemplo de composição em diagrama de classes.*
 
+O código Java abaixo é similar ao do tópico de Agregação, no entando a classe `Curso` tem um notável grau de acoplamento com a classe `Professor`:
+
 ```java
 class Curso {
     private Professor professores[] = new Professor[10];
