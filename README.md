@@ -1,6 +1,8 @@
 # Revisão UML - Diagrama de classes
 
-![Exemplo de diagrama de classes](/static/image01.jpeg)*Exemplo de diagrama de classes.*
+![Exemplo de diagrama de classes](/static/image01.jpeg)
+
+*Exemplo de diagrama de classes.*
 
 Este é um **diagrama de classes**, componente bem comum do UML. O modelo base, à esquerda, descreve sua composição. Os `atributos` são as características e estados da classe, enquanto os `metodos` referem-se as funcionalidades que uma classe pode ter. À direita temos um exemplo com o tema futebol, com a classe simbolizando o jogador.
 
