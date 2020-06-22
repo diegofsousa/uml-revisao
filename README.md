@@ -18,7 +18,9 @@ Os diagramas de classes podem interagir entre si criando **associações**. Tal 
 
 A imagem abaixo apresenta um rascunho exemplificando cada tipo de associação:
 
-![Exemplo de associações](/static/image02.jpeg)*Exemplo de tipos de associação em diagrama de classes.*
+![Exemplo de associações](/static/image02.jpeg)
+
+*Exemplo de tipos de associação em diagrama de classes.*
 
 ## Cardinalidade
 
@@ -32,13 +34,17 @@ Valida se é possível o acesso a outro objeto da mesma associação.
 
 Neste conceito uma classe deriva de outra classe (chamada de superclasse), abstraindo todas as características base e podendo adicionar ou moldar novas características, assim especializando-a.
 
-![Exemplo de herança](/static/image04.jpeg)*Exemplo de herança em diagrama de classes.*
+![Exemplo de herança](/static/image04.jpeg)
+
+*Exemplo de herança em diagrama de classes.*
 
 ## Agregação
 
 É um relacionamento do tipo todo-parte, onde existe ainda uma independência entre as classes.
 
-![Exemplo de agregação](/static/image05.jpeg)*Exemplo de agregação em diagrama de classes.*
+![Exemplo de agregação](/static/image05.jpeg)
+
+*Exemplo de agregação em diagrama de classes.*
 
 O código Java abaixo resume a ligação entre as classes `Curso` e `Professor`:
 
@@ -56,7 +62,9 @@ class Professor {}
 
 Também é um relacionamento todo-parte, porém com alto grau de acoplamento entre o todo e as partes.
 
-![Exemplo de composição](/static/image06.jpeg)*Exemplo de composição em diagrama de classes.*
+![Exemplo de composição](/static/image06.jpeg)
+
+*Exemplo de composição em diagrama de classes.*
 
 ```java
 class Curso {
@@ -76,6 +84,8 @@ class Professor {}
 
 Existe dependência do tipo *cliente-fornecedor*, onde uma classe usa outra. Neste caso, uma alteração na classe independente afetará a classe dependente.
 
-![Exemplo de dependência](/static/image07.jpeg)*Exemplo de dependência em diagrama de classes.*
+![Exemplo de dependência](/static/image07.jpeg)
+
+*Exemplo de dependência em diagrama de classes.*
 
 Todos os conceitos acima apenas resumem bem rapidamente os artefatos usados em diagramas de classes com UML, ou seja, apenas uma breve revisão.
